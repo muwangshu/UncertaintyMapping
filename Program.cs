@@ -1,11 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
 
-
-namespace SegmentGeneration
+namespace UncertaintyMapping
 {
-    struct Brk
+struct Brk
     {
         public double value;
         public int idx;
@@ -14,14 +12,24 @@ namespace SegmentGeneration
     {
         static void Main(string[] args)
         {
-            args = new string[6] { @"..\..\..\..\Data\MHI_2014_us_county.csv", "outtest.txt", "5", "0", "80", "80" };
-            string infile = args[0];
-            string outfile = args[1];
-            int p = Convert.ToInt32(args[2]);
-            int interval = Convert.ToInt32(args[3]);
-            int rate = Convert.ToInt32(args[4]);
-            int confi = Convert.ToInt32(args[5]);
-            Normal(infile, outfile,p, ((double)rate) / 100, ((double)confi / 100), interval);
+            try
+            {
+                args = new string[6] { @"Data\MHI_2014_us_county.csv", "result.txt", "5", "100", "80", "80" };
+                string infile = args[0];
+                string outfile = args[1];
+                int p = Convert.ToInt32(args[2]);
+                int interval = Convert.ToInt32(args[3]);
+                int rate = Convert.ToInt32(args[4]);
+                int confi = Convert.ToInt32(args[5]);
+
+                Normal(infile, outfile, p, ((double)rate) / 100, ((double)confi / 100), interval);
+
+                Console.WriteLine("Complete!");
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.ToString());
+            }
         }
 
         static Brk[] GenerateBreaks(double[] estimates)

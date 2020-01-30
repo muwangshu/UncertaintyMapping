@@ -1,0 +1,11 @@
+d:\Dropbox (ASU)\RESEARCH\MappingRobust\UncertaintyMapping\bin\Debug\netcoreapp3.1\UncertaintyMapping.exe
+D:\Dropbox (ASU)\RESEARCH\MappingRobust\UncertaintyMapping\bin\Debug\netcoreapp3.1\UncertaintyMapping.deps.json
+D:\Dropbox (ASU)\RESEARCH\MappingRobust\UncertaintyMapping\bin\Debug\netcoreapp3.1\UncertaintyMapping.runtimeconfig.json
+D:\Dropbox (ASU)\RESEARCH\MappingRobust\UncertaintyMapping\bin\Debug\netcoreapp3.1\UncertaintyMapping.runtimeconfig.dev.json
+d:\Dropbox (ASU)\RESEARCH\MappingRobust\UncertaintyMapping\bin\Debug\netcoreapp3.1\UncertaintyMapping.dll
+d:\Dropbox (ASU)\RESEARCH\MappingRobust\UncertaintyMapping\bin\Debug\netcoreapp3.1\UncertaintyMapping.pdb
+d:\Dropbox (ASU)\RESEARCH\MappingRobust\UncertaintyMapping\obj\Debug\netcoreapp3.1\UncertaintyMapping.csprojAssemblyReference.cache
+d:\Dropbox (ASU)\RESEARCH\MappingRobust\UncertaintyMapping\obj\Debug\netcoreapp3.1\UncertaintyMapping.AssemblyInfoInputs.cache
+d:\Dropbox (ASU)\RESEARCH\MappingRobust\UncertaintyMapping\obj\Debug\netcoreapp3.1\UncertaintyMapping.AssemblyInfo.cs
+d:\Dropbox (ASU)\RESEARCH\MappingRobust\UncertaintyMapping\obj\Debug\netcoreapp3.1\UncertaintyMapping.dll
+d:\Dropbox (ASU)\RESEARCH\MappingRobust\UncertaintyMapping\obj\Debug\netcoreapp3.1\UncertaintyMapping.pdb
