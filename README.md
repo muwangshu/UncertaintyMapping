@@ -3,6 +3,7 @@
 ## Introduction
 
 Choropleth map classification with uncertain geographical attributes.
+
 **!!!This project is under developing!!!**
 
 ## Usage
@@ -12,7 +13,9 @@ Coming soon....
 ## Test Environment
 
 Windows 10
+
 .Net Core 3.1
+
 Visual Studio Code
 
 ## Please Cite
